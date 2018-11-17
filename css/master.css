@@ -3,13 +3,13 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
   font-family: 'Open Sans', sans-serif;
 }
+
 .wrapper {
-  
   max-width: 50%;
   display: flex;
   flex-direction: row;
@@ -29,13 +29,15 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
 .name {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 2px;
 }
+
 .links {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
   font-size: 18px;
 }
 
@@ -55,6 +57,7 @@ html, body {
 .profile-picture {
   border-radius: 50%;
 }
+
 .body {
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
