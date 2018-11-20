@@ -15,18 +15,27 @@
 		$(function(){
 		$("#header").load("/header.html"); 
 		$("#footer").load("/footer.html"); 
-		$("#footer").load("/nav.html"); 
+		$("#navbar").load("/nav.html"); 
 		});
 	</script> 
-	
-	<div id = "nav"></div>
 </head>
 
 <body class = "main">
-        <div id="header"></div>
-                
-        <div id="footer"></div>
-        <script src="/js/TopNavScroll.js"></script>
+    <div id="header"></div>
+	<div id="navbar"></div>
+    
+    <p class = "content">
+        <div class = "music" id = "soundcloud">
+            <div class = "song1" style = 'text-align:center'>
+                    <iframe width="50%" height="500" scrolling="yes" frameborder="yes" allow="autoplay"  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/529070751&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+
+
+        </div>
+    </p>
+
+
+	<script src="/js/BotNavScroll.js"></script>
     </body>
 
 </html>
